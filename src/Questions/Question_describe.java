@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 
 public class Question_describe {
     public String Name=new String();

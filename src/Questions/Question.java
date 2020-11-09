@@ -1,6 +1,6 @@
-package Question;
+package Questions;
 
-public class Questions {
+public class Question {
     private  String Course_Name=new String();//
     private Integer Question_ID;//试题编号
     private String Question_Type=new String();//题型
