@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="abilityBasedStudySystem:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/abilityBasedStudySystem_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="abilityBasedStudySystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.22.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-logging-1.2/commons-logging-1.2.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="abilityBasedStudySystem/web/Web" />
+    </root>
+  </artifact>
+</component>
