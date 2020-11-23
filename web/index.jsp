@@ -11,6 +11,11 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <form action="login">
+    用户名：<input type="text" name="user"><br/>
+    密码：<input type="password" name="password"><br/>
+    <input type="submit" name="提交">
+    <a href="register.jsp">注册</a>
+  </form>
   </body>
 </html>

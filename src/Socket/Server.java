@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Server {
     public static void main(String[] args) throws IOException {
-        ServerSocket ss = new ServerSocket(6666); // 监听指定端口
+        ServerSocket ss = new ServerSocket(8080); // 监听指定端口
         System.out.println("server is running...");
         for (;;) {
             Socket sock = ss.accept();

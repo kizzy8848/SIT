@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Client {
     public static void main(String[] args) throws IOException {
-        Socket sock = new Socket("localhost", 6666); // 连接指定服务器和端口
+        Socket sock = new Socket("localhost", 8080); // 连接指定服务器和端口
         try (InputStream input = sock.getInputStream()) {
             try (OutputStream output = sock.getOutputStream()) {
                 handle(input, output);

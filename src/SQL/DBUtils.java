@@ -31,6 +31,36 @@ public class DBUtils {
             e.printStackTrace();
             return null; }
     }
+    public void executeUpdateInsert(String sql)throws SQLException{
+        if(con==null)
+            return;
+        stt=con.createStatement();
+        try {
+            stt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        System.out.print("向student表添加数据成功！");
+    }
+    public void update(String sql)throws SQLException{
+        if(con==null)
+            return;
+        stt=con.createStatement();
+        PreparedStatement ps = con.prepareStatement(sql);
+        //执行sql语句
+        ps.executeUpdate();
+        System.out.print("修改密码成功！");
+    }
+    public String find(String sql)throws SQLException{
+        stt=con.createStatement();
+        res = stt.executeQuery(sql);
+        if(!res.next()) {
+            return "ThisUserDoesNotExist";
+        }
+        else{
+            return res.getString(3);
+        }
+    }
     public void close(){  //close
         if(this.con!=null){
             try{
@@ -40,4 +70,5 @@ public class DBUtils {
             }
         }
     }
+
 }
