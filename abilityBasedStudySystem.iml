@@ -67,5 +67,8 @@
         <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="com.google.code.gson:gson:2.8.5" level="project" />
+    <orderEntry type="library" name="vue" level="application" />
+    <orderEntry type="library" name="jquery" level="project" />
   </component>
 </module>

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="jquery" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/web/js/app.js" />
+        <item url="file://$PROJECT_DIR$/web/js/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/web/js/npm.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/js/app.js" />
+      <root url="file://$PROJECT_DIR$/web/js/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/web/js/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/jquery-3.2.1.min.js" />
+      <root url="file://$PROJECT_DIR$/web/js/npm.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
