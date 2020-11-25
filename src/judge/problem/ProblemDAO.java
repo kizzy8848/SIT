@@ -49,7 +49,7 @@ public class ProblemDAO {
             //5.关闭连接
             DBUtil.close(connection, statement, resultSet);
         }
-
+        System.out.println(1);
         return null;
     }
 

@@ -4,23 +4,19 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import judge.compile.Answer;
 import judge.compile.Question;
-import judge.compile.Task;
 import judge.problem.Problem;
 import judge.problem.ProblemDAO;
+import judge.compile.Task;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * 10、
- *
- * @author haozhang
- * @date 2020/09/06
- */
+@WebServlet(name = "CompileServlet",urlPatterns ="/compile")
 public class CompileServlet extends HttpServlet {
     private Gson gson = new GsonBuilder().create();
 
@@ -177,3 +173,4 @@ public class CompileServlet extends HttpServlet {
         return new String(buf);
     }
 }
+

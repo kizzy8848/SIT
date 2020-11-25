@@ -14,24 +14,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- 开发环境版本，包含了有帮助的命令行警告 -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- 3. 导入bootstrap的js文件 -->
-    <script src="js/bootstrap.js"></script>
-
 </head>
 
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top sticky-navigation">
     <a class="navbar-brand font-weight-bold" href="#">在线 OJ</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenu"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="topMenu">
+    <div
+            class="collapse navbar-collapse" id="topMenu">
     </div>
 </nav>
 
@@ -54,7 +45,7 @@
     <div class="container" id="app">
 
         <!-- Tables  -->
-        <div class="row mb-5" id="tables" v-show="status=='list'">
+        <div class="row mb-5"  v-show="status=='list'">
             <div class="col-sm-12">
                 <div class="mt-3 mb-5">
                     <h3>题目列表</h3>
@@ -88,7 +79,7 @@
             </div>
         </div>
 
-        <div class="row mb-5" id="tables" v-show="status=='detail'">
+        <div class="row mb-5"  v-show="status=='detail'">
             <div class="col-sm-12">
                 <div class="jumbotron">
                     <h3>{{problem.id}}.{{problem.title}} {{problem.level}}</h3>
@@ -115,9 +106,9 @@
 </section>
 
 <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
 
 <script>
