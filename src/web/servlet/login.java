@@ -29,7 +29,7 @@ public class login extends HttpServlet {
             OperatorStudent opS=new OperatorStudent();
             DBUtils db=new DBUtils();
             //从登录页面拿到用户输入的用户名
-            String name = req.getParameter("user");
+            String name = req.getParameter("username");
             //从登录页面拿到用户输入的密码
             String pwd = req.getParameter("password");
             //还是在控制台上输出看是否拿到的帐号密码
@@ -40,7 +40,7 @@ public class login extends HttpServlet {
                 //5.跳转到
                 req.getRequestDispatcher("/oj.jsp").forward(req,resp);
             }else {
-                resp.getWriter().write("对不起你帐号名有误，请<a href='register.jsp'>注册</a>");
+                resp.getWriter().write("对不起你帐号名有误，请返回<a href='index.jsp'>登录</a>或<a href='register.jsp'>注册</a>");
             }
             db.close();
         }catch (Exception e){

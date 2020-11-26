@@ -9,9 +9,6 @@ import java.io.OutputStream;
  * 1、
  * 借助这个类让Java代码能够去执行一个具体的命令
  * 如 javac Test.java
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class CommandUtil {
 

@@ -3,9 +3,6 @@ package judge.compile;
 /**
  * 3、
  * 一次编译运行过程中都产生了哪写数据
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class Answer {
 

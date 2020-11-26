@@ -20,8 +20,8 @@ public class ProblemServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String id = req.getParameter("id");
         if (id == null || "".equals(id)) {
-            //没有id这个参数， 执行查找全部
-            selectAll(resp);
+                //没有id这个参数， 执行查找全部
+                selectAll(resp);
         } else {
             //存在id这个参数，执行查找指定题目id
             selectOne(Integer.parseInt(id), resp);

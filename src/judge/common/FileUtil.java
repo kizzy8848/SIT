@@ -8,9 +8,6 @@ import java.io.IOException;
 /**
  * 5、
  * 工具类，方便读写文件
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class FileUtil {
     /**

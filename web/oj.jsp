@@ -11,14 +11,19 @@
     <meta charset="utf-8">
     <meta name="description" content="基于 Java 开发的在线 OJ"/>
     <title>在线 OJ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,text/html; charset=UTF-8" http-equiv="Content-Type">
     <!--Bootstrap 4-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link  href="css/bootstrap.min.css" rel="stylesheet">
     <!-- 开发环境版本，包含了有帮助的命令行警告 -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
-<body>
+<body background="${pageContext.request.contextPath }/img/charcoal.jpg" style=" background-repeat:no-repeat ; background-size:100% 100%;background-attachment: fixed;">
 <nav class="navbar navbar-expand-md navbar-dark fixed-top sticky-navigation">
     <a class="navbar-brand font-weight-bold" href="#">在线 OJ</a>
     <div
@@ -104,13 +109,6 @@
         </div>
     </div>
 </section>
-
-<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/app.js"></script>
-
 <script>
     // 在这个标签中写的就是 JavaScript 代码.
     // 创建一个 Vue 的对象

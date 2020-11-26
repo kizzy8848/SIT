@@ -3,9 +3,6 @@ package judge.problem;
 /**
  * 7、
  * 每个problem对象就对应到oj_table中的一条记录
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class Problem {
 

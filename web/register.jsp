@@ -13,7 +13,7 @@
 <body>
 <fieldset id="">
     <legend>注册页面</legend>
-    <form action="Register">
+    <form action="Register" style="text-align: center">
     <table>
         <tr>
             <td>username：</td>
@@ -44,8 +44,6 @@
     <input type="submit" id="btn2" value="提交" />
     <input type="button" id="btn1" value="验证" />
     </form>
-
 </fieldset>
 </body>
-
 </html>

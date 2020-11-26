@@ -3,9 +3,6 @@ package judge.compile;
 /**
  * 2、
  * 一次编译运行过程中都依赖哪写数据
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class Question {
     /**

@@ -8,9 +8,6 @@ import java.io.IOException;
 /**
  * 4、
  * 借助这个类来描述一次编译运行的过程
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class Task {
 

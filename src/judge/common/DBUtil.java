@@ -11,9 +11,6 @@ import java.sql.SQLException;
 /**
  * 6、
  * 和数据库建立连接，进一步操作数据库
- *
- * @author haozhang
- * @date 2020/09/04
  */
 public class DBUtil {
     private static final String URL ="jdbc:mysql://localhost:3306/sit?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai";
